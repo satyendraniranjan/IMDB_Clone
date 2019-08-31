@@ -16,7 +16,7 @@
 
 					{% for movie in object_list %}
 					<div class="mov">
-						<a href="">
+						<a href="{% url 'movies:Movie_Detail' movie.slug %}">
 							<img src="{{movie.image.url}}">
 							<h2 class="movietitle">{{movie.title}}</h2>
 						</a>
@@ -46,7 +46,7 @@
 
 
 							{% if page_obj.has_next %}
-							<li><a href="?page={{page_obj..next_page_number}}">Next</a></li>
+							<li><a href="?page={{page_obj.next_page_number}}">Next</a></li>
 							{% else %}
 								<li class="disable"> </li>
 							{% endif %}

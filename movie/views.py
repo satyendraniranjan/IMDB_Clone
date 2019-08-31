@@ -6,7 +6,7 @@ from django.views.generic.dates import YearArchiveView
 
 class MovieList(ListView):
     model = Movie
-    paginate_by = 1
+    paginate_by = 2
 
 
 class MovieDetail(DetailView):
@@ -25,7 +25,7 @@ class MovieDetail(DetailView):
 
 class MovieCategory(ListView):
     model = Movie
-    paginate_by = 1
+    paginate_by = 2
 
     def get_queryset(self):
         self.category = self.kwargs['category']
@@ -39,7 +39,7 @@ class MovieCategory(ListView):
 
 class MovieLanguage(ListView):
     model = Movie
-    paginate_by = 1
+    paginate_by = 2
 
     def get_queryset(self):
         self.language = self.kwargs['lang']
@@ -53,7 +53,7 @@ class MovieLanguage(ListView):
 
 class MovieSearch(ListView):
     model = Movie
-    paginate_by = 1
+    paginate_by = 2
 
     def get_queryset(self):
         query = self.request.GET.get('query')

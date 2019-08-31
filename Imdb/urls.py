@@ -22,7 +22,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('movie/', include('movie.urls'))
+    path('movie/', include('movie.urls' ,namespace='movies'))
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root = settings.STATIC_URL)

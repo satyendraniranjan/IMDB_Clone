@@ -3,19 +3,19 @@ from django.db import models
 # Create your models here.
 
 CATEGORY_CHOICE = (
-    ('A','ACTION'),
-    ('D','DRAMA'),
-    ('C','COMEDY'),
-    ('R','ROMANCE'),
+    ('action','ACTION'),
+    ('drama','DRAMA'),
+    ('comedy','COMEDY'),
+    ('romance','ROMANCE'),
 
 )
 
 LANGUAGE_CHOICE = (
 
-    ('EN','ENGLISH'),
-    ('GE','GERMAN'),
-    ('HI','HINDI'),
-    ('FR','FRENCH'),
+    ('english','ENGLISH'),
+    ('german','GERMAN'),
+    ('hindi','HINDI'),
+    ('french','FRENCH'),
 )
 
 STATUS_CHOICE = (
@@ -28,8 +28,8 @@ class Movie(models.Model):
     title = models.CharField(max_length = 100)
     description = models.TextField(max_length=1000)
     image = models.ImageField(upload_to='movies')
-    category = models.CharField(choices=CATEGORY_CHOICE, max_length=1)
-    language = models.CharField(choices=LANGUAGE_CHOICE,max_length=2)
+    category = models.CharField(choices=CATEGORY_CHOICE, max_length=10)
+    language = models.CharField(choices=LANGUAGE_CHOICE,max_length=10)
     status = models.CharField(choices=STATUS_CHOICE,max_length=2)
     cast = models.CharField(max_length=100)
     year_of_production = models.DateField()

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbee2812-2638-4a1e-83b3-9b28e895cc8d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imdb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Imdb/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/templates/movie/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/movie/templates/movie/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,22 +26,22 @@
           <entry key="LICENSE" value="1" />
           <entry key="css" value="4" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="7" />
+          <entry key="html" value="11" />
           <entry key="js" value="2" />
           <entry key="map" value="2" />
           <entry key="md" value="2" />
-          <entry key="py" value="18" />
+          <entry key="py" value="19" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="7" />
+          <entry key="HTML" value="11" />
           <entry key="JavaScript" value="2" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="18" />
+          <entry key="Python" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -48,7 +49,7 @@
           <entry key="Information" value="225" />
           <entry key="html" value="2021" />
           <entry key="md" value="95" />
-          <entry key="py" value="3285" />
+          <entry key="py" value="3286" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -57,21 +58,54 @@
           <entry key="HTML" value="2021" />
           <entry key="Markdown" value="95" />
           <entry key="PLAIN_TEXT" value="226" />
-          <entry key="Python" value="3285" />
+          <entry key="Python" value="3286" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Imdb/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="15" selection-start-column="15" selection-end-column="15" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/movie/templates/movie/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="47" column="109" selection-start-line="47" selection-start-column="109" selection-end-line="47" selection-end-column="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1176">
+              <caret line="74" column="12" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movie/templates/movie/movie_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="18" column="75" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movie/templates/movie/movie_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="538">
+              <caret line="57" column="75" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -100,19 +134,19 @@
         <option value="$PROJECT_DIR$/movie/templates/movie/movie_archive_year.html" />
         <option value="$PROJECT_DIR$/movie/urls.py" />
         <option value="$PROJECT_DIR$/movie/templates/movie/movie_list.html" />
-        <option value="$PROJECT_DIR$/Imdb/settings.py" />
         <option value="$PROJECT_DIR$/movie/models.py" />
         <option value="$PROJECT_DIR$/movie/templates/movie/movie_detail.html" />
         <option value="$PROJECT_DIR$/Imdb/urls.py" />
         <option value="$PROJECT_DIR$/movie/views.py" />
-        <option value="$PROJECT_DIR$/movie/templates/movie/home.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/movie/movie_context.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Imdb/settings.py" />
+        <option value="$PROJECT_DIR$/movie/templates/movie/home.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="1366" />
     <option name="height" value="728" />
   </component>
@@ -133,11 +167,6 @@
             <path>
               <item name="IMDB_Clone" type="b2602c69:ProjectViewProjectNode" />
               <item name="IMDB_Clone" type="462c0819:PsiDirectoryNode" />
-              <item name="Imdb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IMDB_Clone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IMDB_Clone" type="462c0819:PsiDirectoryNode" />
               <item name="movie" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -151,6 +180,13 @@
               <item name="IMDB_Clone" type="462c0819:PsiDirectoryNode" />
               <item name="movie" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMDB_Clone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMDB_Clone" type="462c0819:PsiDirectoryNode" />
+              <item name="movie" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="movie" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IMDB_Clone" type="b2602c69:ProjectViewProjectNode" />
@@ -202,7 +238,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17113096" />
@@ -304,13 +340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Imdb/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="61" column="59" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Imdb/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -333,13 +362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="74" column="12" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movie/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -348,27 +370,6 @@
             <element signature="e#0#35#0" expanded="true" />
             <marker date="1567342257563" expanded="true" signature="236:631" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/templates/movie/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/templates/movie/movie_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="57" column="75" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/templates/movie/movie_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -389,6 +390,41 @@
             <caret column="15" selection-start-column="15" selection-end-column="15" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Imdb/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="74" column="12" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/templates/movie/movie_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="18" column="75" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/templates/movie/movie_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="57" column="75" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/templates/movie/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="47" column="109" selection-start-line="47" selection-start-column="109" selection-end-line="47" selection-end-column="109" />
         </state>
       </provider>
     </entry>

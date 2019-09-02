@@ -10,7 +10,7 @@
 						<div class="swiper-wrapper">
 							{% for movie in recently_added %}
 
-							    <div class="swiper-slide"><a href="single.html"><img src="{{movie.image.url}}"><h3 class="hometitle">{{movie.title}}</h3></a></div>
+							    <div class="swiper-slide"><a href="{% url 'movies:Movie_Detail' movie.slug %}"><img src="{{movie.image.url}}"><h3 class="hometitle">{{movie.title}}</h3></a></div>
 							{% endfor %}
 
 							<div class="swiper-slide"><a href="mostwatched.html"><img src="{% static 'img/others.png' %}"></a></div>
@@ -27,7 +27,7 @@
 					<div class="swiper-container">
 						<div class="swiper-wrapper">
                             {% for movie in most_watched %}
-							    <div class="swiper-slide"><a href="single.html"><img src="{{movie.image.url}}"><h3 class="hometitle">{{movie.title}}</h3></a></div>
+							    <div class="swiper-slide"><a href="{% url 'movies:Movie_Detail' movie.slug %}"><img src="{{movie.image.url}}"><h3 class="hometitle">{{movie.title}}</h3></a></div>
 							{% endfor %}
 
 							<div class="swiper-slide"><a href="mostwatched.html"><img src="{% static 'img/others.png' %}"></a></div>
@@ -45,7 +45,7 @@
 					<div class="swiper-container">
 						<div class="swiper-wrapper">
                             {% for movie in top_rated %}
-							    <div class="swiper-slide"><a href=""><img src="{{movie.image.url}}"><h3 class="hometitle">{{movie.title}}</h3></a></div>
+							    <div class="swiper-slide"><a href="{% url 'movies:Movie_Detail' movie.slug %}"><img src="{{movie.image.url}}"><h3 class="hometitle">{{movie.title}}</h3></a></div>
                             {% endfor %}
 
 							<div class="swiper-slide"><a href="mostwatched.html"><img src="{% static 'img/others.png' %}"></a></div>
